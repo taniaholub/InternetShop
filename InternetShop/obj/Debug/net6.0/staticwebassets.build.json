@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "0l1htNwNdoD6YiTFGTf2Vki0waxl7+4+Jhzzbnqwz9U=",
+  "Source": "InternetShop",
+  "BasePath": "_content/InternetShop",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InternetShop\\wwwroot",
+      "Source": "InternetShop",
+      "ContentRoot": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\",
+      "BasePath": "_content/InternetShop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InternetShop.styles.css",
+      "SourceId": "InternetShop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/InternetShop",
+      "RelativePath": "InternetShop.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InternetShop.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InternetShop.bundle.scp.css",
+      "SourceId": "InternetShop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/InternetShop",
+      "RelativePath": "InternetShop.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InternetShop.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\css\\style.css",
+      "SourceId": "InternetShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\",
+      "BasePath": "_content/InternetShop",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\favicon.ico",
+      "SourceId": "InternetShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\",
+      "BasePath": "_content/InternetShop",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

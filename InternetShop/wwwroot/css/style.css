@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2d3331;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+            nav ul li a {
+                display: block;
+                padding: 5px 10px;
+            }
+
+                nav ul li a:hover {
+                    background-color: #555;
+                }
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+        nav ul li {
+            margin: 0;
+        }
+}
+
+.order-container {
+    width: 90%;
+    margin: auto;
+}
+
+.order-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.order-column {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.order-details, .product-header {
+    margin-bottom: 10px;
+
+}
+
+.order-details {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .order-details b {
+        color: #033d1c; /* Dark green */
+    }
+
+.status-primary {
+    color: blue;
+}
+
+.order-form {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.btn-success,.submit-button,.order-button {
+    background-color: green;
+    margin:auto;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+/* Styling for tables */
+.order-table, .custom-table {
+    width: 90%;
+    margin: 20px auto; /* Centering the table with some vertical space */
+    border-collapse: separate; /* Allows border spacing */
+    border-spacing: 0; 
+    border-radius: 8px; 
+    overflow: hidden; /* Ensures the rounded corners are visible */
+}
+
+    .order-table th, .order-table td,
+    .custom-table th, .custom-table td {
+        border: 2px solid #036d1c; /* Dark green */
+        padding: 10px; 
+        text-align: center;
+        background-color: white; /* White background for cells */
+    }
+
+.custom-table {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adding a subtle shadow for depth */
+}
+
+    .custom-table th {
+        background-color: #f2f2f2;
+        color: #033d1c; /* Dark green text for headers */
+    }
+
+    .custom-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .custom-table tr:hover {
+        background-color: #e6f7e6; /* Light green */
+    }
+
+.custom-container {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.alert-message {
+    padding: 15px;
+    background-color: #ffcc00; /* yellow color */
+    color: #333; /* black color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-button:hover, .order-button:hover {
+    background-color: darkblue;
+}
+
+.submit-button, .order-button {
+    display: block; /* Make the button a block element */
+    width: fit-content; /* Adjust width to content */
+    margin: 20px auto; /* Center the button */
+}

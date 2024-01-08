@@ -1,0 +1,50 @@
+﻿@using InternetShop.Repositories.Interfaces;
+@inject IProductRepository productRepository
+
+<div class="order-container">
+    <div class="order-row">
+        <div class="order-column">
+            <p class="order-details">
+                <b>Order Id:</b> @ViewBag.order.Id
+                <br>
+                <b>Status:</b> <span class="status-primary">@ViewBag.order.Status</span>
+                <br>
+                <b>Total sum of the order:</b> @ViewBag.order.TotalSum
+                <br>
+            </p>
+
+            @if (@ViewBag.order.Status == 0)
+            {
+                <form class="order-form" action="~/order/complete/orderId=@ViewBag.order.Id" method="post">
+                    <input class="btn-success" type="submit" value="COMPLETE" />
+                </form>
+
+                <form class="order-form" action="~/order/cancel/orderId=@ViewBag.order.Id" method="post">
+                    <input class="btn-danger" type="submit" value="CANCEL" />
+                </form>
+            }
+        </div>
+
+        <div class="order-column">
+            <p class="product-header"><b>Products in the order:</b></p>
+            <table class="order-table">
+                <tr>
+                    <th>Title</th>
+                    <th>Quantity</th>
+                    <th>Price For An Item</th>
+                    <th>Description</th>
+                </tr>
+                @foreach (var item in ViewBag.items)
+                {
+                    var product = productRepository.GetById(@item.ProductId);
+                    <tr>
+                        <td>@product.Title</td>
+                        <td>@item.Quantity</td>
+                        <td>@product.Price</td>
+                        <td>@product.Description</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

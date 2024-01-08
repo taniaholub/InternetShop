@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InternetShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InternetShop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Тетяна\\Desktop\\Лаби 2 курс\\InternetShop\\InternetShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.InternetShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.InternetShop.props",
+      "PackagePath": "build\\InternetShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.InternetShop.props",
+      "PackagePath": "buildMultiTargeting\\InternetShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.InternetShop.props",
+      "PackagePath": "buildTransitive\\InternetShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

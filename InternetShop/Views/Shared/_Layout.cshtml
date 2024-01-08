@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GROCERYSHOP</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+
+</head>
+<body>
+    <nav>
+        <a href="/">InternetShop</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/user/login">Log In</a></li>
+            <li><a href="/user/logout">Log Out</a></li>
+            <li><a href="/user/register">Register</a></li>
+            <li><a href="/product/all">Products</a></li>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>

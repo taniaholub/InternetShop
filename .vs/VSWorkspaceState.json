@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\InternetShop",
+    "\\InternetShop\\Controllers",
+    "\\InternetShop\\Models",
+    "\\InternetShop\\Repositories",
+    "\\InternetShop\\Repositories\\Interfaces",
+    "\\InternetShop\\Services",
+    "\\InternetShop\\Services\\Interfaces",
+    "\\InternetShop\\Views"
+  ],
+  "SelectedNode": "\\InternetShop\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}

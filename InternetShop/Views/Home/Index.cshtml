@@ -1,0 +1,57 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+
+<div class="custom-container">
+    <!-- User Information Section -->
+    <div class="user-info">
+        <div class="info-card">
+            <div class="info-body">
+                <h4>Welcome, @ViewBag.user.Name!</h4>
+                <p>Balance: <span class="balance">@ViewBag.user.Balance</span></p>
+                <form action="user/addToBalance" method="post" class="balance-form">
+                    <div class="form-group">
+                        <label for="amount">Add To The Balance:</label>
+                        <input type="number" step="100" id="amount" name="amount" min="100" class="form-input" />
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Orders Section -->
+    <div class="orders">
+        <div class="orders-card">
+            <div class="orders-body">
+                <h4>Orders</h4>
+                @if (ViewBag.orders.Count > 0)
+                {
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Status</th>
+                                <th>Total Sum</th>
+                                <th>Info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var order in ViewBag.orders)
+                            {
+                                <tr>
+                                    <td>@order.Id</td>
+                                    <td>@order.Status</td>
+                                    <td>@order.TotalSum</td>
+                                    <td>
+                                        <form action="/order/info/orderId=@order.Id" method="get">
+                                            <button type="submit" class="info-button">Info</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</div>
